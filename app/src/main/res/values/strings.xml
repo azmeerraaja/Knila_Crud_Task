@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">KNILA</string>
+    <string name="signup">Signup</string>
+    <string name="welcome_back">KNILA IT SOLUTIONS,</string>
+    <string name="signup_to_continue">Signup to continue</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="your_email">Your Email</string>
+    <string name="pass">Password</string>
+    <string name="str_register">Register</string>
+    <string name="uploadProfilePhoto">Upload Profile Photo</string>
+    <string name="str_login">Sign In</string>
+    <string name="signin_to_continue">Sign In to continue</string>
+    <string name="or_continue_with">Or continue with</string>
+    <string name="dont_have_account">Don\'t have account ? Register Here</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="enter_first_name">Please enter your first name</string>
+    <string name="enter_last_name">Please enter your last name</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign In or Register</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Sign In failed"</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="invalid_credentials">Invalid Credentials</string>
+    <string name="user_update_success">User updated successfully</string>
+    <string name="failed_to_update">Failed to update user</string>
+</resources>

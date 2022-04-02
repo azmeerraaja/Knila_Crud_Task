@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true">
+
+
+        <RelativeLayout
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_back"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/arrow_left"
+                android:padding="@dimen/back_button_padding"
+                android:src="@drawable/ic_arrow_back"
+                android:tint="@color/black" />
+
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:paddingTop="2dp"
+            android:text="@string/str_login"
+            android:textColor="@color/black"
+            android:textSize="@dimen/heading_text" />
+
+    </RelativeLayout>
+
